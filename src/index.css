@@ -1,32 +1,14 @@
 /*----- COLORS -----*/
 :root {
-  --dark: black;
-  --light: F5F5F5;
+  --dark: #19446B;
 }
 
 /*----- ROOT -----*/
-html, 
+html,
 body,
 #root {
-  background-color: var(--dark);
   padding: 0;
   margin: 0;
   height: 100%;
-}
-
-
-main {
-  background: rgba(255, 255, 255, 0.561);
-  backdrop-filter: saturate(180%) blur(10px);
-  width: 80%;
-  border-radius: 15px;
-  margin-top: 10%;
-  margin-bottom: 10%;
-}
-
-@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
-  .main {
-      -webkit-backdrop-filter: blur(10px);
-      backdrop-filter: blur(10px);
-  }
+  width: 100vw;
 }

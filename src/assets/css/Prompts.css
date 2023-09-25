@@ -1,5 +1,12 @@
 /*----- COLORS -----*/
 :root {
-    --dark: black;
-    --light: F5F5F5;
-  }
+  --dark: #19446B;
+}
+
+/*-- FONTS --*/
+@font-face {
+  font-family: aldrich;
+  src: url('../fonts/Aldrich-Regular.ttf');
+}
+
+/*--------------- PROMPTS ---------------*/

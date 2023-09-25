@@ -10,8 +10,13 @@ export default function Header() {
     return (
         //---------- HEADER ----------//
         <div className='header-container'>
-            <h1>secureon</h1>
-            <p>SECURE BEYOND</p>
+            <header>
+                <h1>SECUREON</h1>
+                <p>secure beyond</p>
+            </header>
+            <div className='cyber'>
+                <p>PASSWORD GENERATOR</p>
+            </div>
         </div>
     )
 }

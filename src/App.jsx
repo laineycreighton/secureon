@@ -6,8 +6,8 @@ import 'normalize.css'
 import './App.css';
 
 //Components
-import Header from './pages/Header.jsx';
-import Footer from './pages/Footer.jsx';
+import Header from './components/Header.jsx';
+import Footer from './components/Footer.jsx';
 
 //----- EXPORTS -----//
 function App() {
@@ -20,8 +20,10 @@ function App() {
       {/* Header */}
       <Header />
 
-      {/* Outlet */}
-      <Outlet />
+      <div className="outlet">
+        {/* Outlet */}
+        <Outlet />
+      </div>
 
       {/* Footer */}
       <Footer />
