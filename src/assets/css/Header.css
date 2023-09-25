@@ -33,19 +33,3 @@ h1 {
   font-size: 25px;
   margin: 5px 10px 0 0;
 }
-
-.cyber {
-  background-image: url('../images/security.jpeg');
-  background-size: cover;
-  background-position: center center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 250px;
-}
-
-.cyber p {
-  font-family: aldrich;
-  font-size: 30px;
-  color: whitesmoke;
-}
