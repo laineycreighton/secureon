@@ -12,24 +12,22 @@
 /*--------------- HEADER ---------------*/
 .header-container {
   /* outline: red dashed 3px; */
-  width: 100%;
-}
-
-.header-container header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   font-family: aldrich;
   color: var(--dark);
+  width: 100%;
+  margin: 0;
 }
 
 h1 {
-  font-size: 40px;
-  margin: 5px 0 0 10px;
+  font-size: 45px;
+  margin: 10px 0 0 10px;
 }
 
 .header-container p {
   font-size: 25px;
-  margin: 5px 10px 0 0;
+  margin: 10px 10px 0 0;
 }

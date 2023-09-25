@@ -52,14 +52,19 @@ export default function Prompts() {
     return (
         //---------- PROMPTS ----------//
         <div className='prompts-container'>
+
+            {/*--- Password Display ---*/}
             <div className='cyber'>
                 <div className='display'>
                     <p>{password}</p>
                 </div>
             </div>
 
+            {/*--- Prompts ---*/}
             <div className='prompts'>
-                <h2>PLEASE SELECT THE CRITERIA FOR YOUR PASSWORD:</h2>
+                <h2>SELECT YOUR PASSWORD CRITERIA:</h2>
+
+                {/* Length */}
                 <div className='length'>
                     <input
                         type="number"
@@ -68,40 +73,50 @@ export default function Prompts() {
                         min='8'
                         max='128'
                     />
-                    <p>Desired password length (8-128)</p>
+                    <p>Password length:</p>
                 </div>
+
+                {/* Upper */}
                 <div className='upper'>
                     <input
                         type="checkbox"
                         checked={includeUpper}
                         onChange={() => setIncludeUpper(!includeUpper)}
                     />
-                    <p>Upper Case Letters: (A-Z)</p>
+                    <p>Upper Case Letters:</p>
                 </div>
+
+                {/* Lower */}
                 <div className='lower'>
                     <input
                         type="checkbox"
                         checked={includeLower}
                         onChange={() => setIncludeLower(!includeLower)}
                     />
-                    <p>Lower Case Letters: (a-z)</p>
+                    <p>Lower Case Letters:</p>
                 </div>
+
+                {/* Number */}
                 <div className='number'>
                     <input
                         type="checkbox"
                         checked={includeNumbers}
                         onChange={() => setIncludeNumbers(!includeNumbers)}
                     />
-                    <p>Numbers: (0-9)</p>
+                    <p>Numbers:</p>
                 </div>
+
+                {/* Special */}
                 <div className='special'>
                     <input
                         type="checkbox"
                         checked={includeSpecial}
                         onChange={() => setIncludeSpecial(!includeSpecial)}
                     />
-                    <p>Special Characters: (!@#$%^&*)</p>
+                    <p>Special Characters</p>
                 </div>
+
+                {/*--- Call Generator ---*/}
                 <button onClick={handleGeneratePassword} className='generate'>GENERATE PASSWORD</button>
 
             </div>
