@@ -1,7 +1,7 @@
 //----- IMPORTS -----//
 
 //CSS
-import '../assets/css/Footer.css';
+import '../assets/css/Header.css';
 
 //----- EXPORTS -----//
 export default function Header() {

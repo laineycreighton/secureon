@@ -2,35 +2,42 @@
 import { Link } from 'react-router-dom';
 
 //CSS
-import '../assets/css/Footer.css';
-
-//Images
-import github from '../assets/images/github.svg';
-import linkedin from '../assets/images/linkedin.svg';
-import email from '../assets/images/email.svg';
+import '../assets/css/Prompts.css';
 
 //----- EXPORTS -----//
-export default function Footer() {
-
-    const mygithub = 'https://github.com/laineycreighton';
-    const mylinkedin = 'https://www.linkedin.com/in/lainey-creighton/';
-    const myemail = 'dev.lainey@gmail.com';
+export default function Prompts() {
 
     //Return
     return (
-        //---------- FOOTER ----------//
-        <div className='footer-container'>
-            <footer>
+        //---------- PROMPTS ----------//
+        <div className='prompts-container'>
+            <header>
+                <h2>YOUR CRITERIA</h2>
+                <p>PLEASE SELECT THE CRITERIA FOR YOUR PASSWORD:</p>
+            </header>
+            <div>
                 <div>
-                    <p className='tag'>MADE WITH <span className='passion'>Passion</span> BY <Link className='my-name' to="/dev">LAINEY CREIGHTON</Link></p>
+                    <input type="text" />
+                    <p>Desired password length</p>
                 </div>
-                <div className='separator'></div>
-                <div className='contact-icons'>
-                    <a href={mygithub} target='_blank' ><img src={github} alt='github' /></a>
-                    <a href={mylinkedin} target='_blank' ><img src={linkedin} alt='linkedin' /></a>
-                    <a href={myemail} target='_blank' ><img src={email} alt='email' /></a>
+                <div>
+                    <input type="checkbox" />
+                    <p>Upper Case Letters: (A-Z)</p>
                 </div>
-            </footer>
+                <div>
+                    <input type="checkbox" />
+                    <p>Lower Case Letters: (a-z)</p>
+                </div>
+                <div>
+                    <input type="checkbox" />
+                    <p>Numbers: (0-9)</p>
+                </div>
+                <div>
+                    <input type="checkbox" />
+                    <p>Special Characters: (!@#$%^&*)</p>
+                </div>
+            </div>
+            <button>CREATE</button>
         </div>
     )
 }
