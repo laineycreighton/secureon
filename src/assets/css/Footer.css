@@ -1,4 +1,20 @@
 /*----- COLORS -----*/
 :root {
   --dark: #19446B;
+  --blue: #0F63FE;
+}
+
+/*-- FONTS --*/
+@font-face {
+  font-family: aldrich;
+  src: url('../fonts/Aldrich-Regular.ttf');
+}
+
+/*--------------- FOOTER ---------------*/
+h5 {
+  font-family: aldrich;
+  font-size: 10px;
+  color: var(--dark);
+  position: relative;
+  bottom: 0;
 }
