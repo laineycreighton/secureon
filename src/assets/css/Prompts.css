@@ -1,6 +1,7 @@
 /*----- COLORS -----*/
 :root {
   --dark: #19446B;
+  --blue: #0F63FE;
 }
 
 /*-- FONTS --*/
@@ -10,3 +11,66 @@
 }
 
 /*--------------- PROMPTS ---------------*/
+.prompts-container {
+  /* outline: red dashed 3px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: aldrich;
+}
+
+/*-- HEADING --*/
+h2 {
+  font-size: 25px;
+  color: var(--dark);
+}
+
+/*-- CRITERIA --*/
+.length,
+.upper,
+.lower,
+.number,
+.special {
+  /* outline: blue dashed 3px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  width: 40%;
+}
+
+/*-- INPUTS --*/
+.length input,
+.upper input,
+.lower input,
+.number input,
+.special input {
+  /* outline: red dashed 3px; */
+  width: 50px;
+  margin: 0;
+}
+
+/*-- PROMPTS --*/
+.length p,
+.upper p,
+.lower p,
+.number p,
+.special p {
+  /* outline: red dashed 3px; */
+  font-size: 20px;
+  text-align: left;
+  width: 80%;
+  margin: 10px;
+}
+
+/*-- GENERATE BUTTON --*/
+.generate {
+  font-size: 15px;
+  color: whitesmoke;
+  background-color: var(--blue);
+  border: none;
+  padding: 10px 20px 5px 20px;
+  margin-top: 20px;
+}

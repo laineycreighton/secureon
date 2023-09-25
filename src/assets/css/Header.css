@@ -13,8 +13,6 @@
 .header-container {
   /* outline: red dashed 3px; */
   width: 100%;
-  position: absolute;
-  top: 0;
 }
 
 .header-container header {

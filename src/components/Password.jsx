@@ -11,9 +11,9 @@ export default function Password() {
     return (
         //---------- PASSWORD ----------//
         <div className='password-container'>
-            <h2>YOUR PASSWORD</h2>
-            <div>
-                <p></p>
+            <h2>YOUR PASSWORD:</h2>
+            <div className='display-password'>
+                <p>placeholder</p>
             </div>
             <button>NEW PASSWORD</button>
         </div>
