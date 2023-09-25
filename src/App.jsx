@@ -5,6 +5,10 @@ import { Outlet } from "react-router-dom";
 import 'normalize.css'
 import './App.css';
 
+//Components
+import Header from './pages/Header.jsx';
+import Footer from './pages/Footer.jsx';
+
 //----- EXPORTS -----//
 function App() {
 

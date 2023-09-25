@@ -6,8 +6,8 @@ import App from './App.jsx'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 //Pages
-import Home from './pages/Home.jsx';
-import Dev from './pages/Dev.jsx';
+import Prompts from './pages/Prompts.jsx';
+import Password from './pages/Password.jsx';
 
 //----- EXPORTS -----//
 const router = createBrowserRouter([
@@ -18,11 +18,11 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />,
+        element: <Prompts />,
       },
       {
-        path: "/dev",
-        element: <Dev />,
+        path: "/password",
+        element: <Password />,
       },
     ],
   },
