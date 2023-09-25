@@ -1,4 +1,4 @@
-# Secureon Password Generator
+# <img src="./src/assets/images/header.png" alt="header" width="100%">
 
 ## Table of Contents
 - [Description](#description)
@@ -6,13 +6,13 @@
 - [Technology Used](#technology-used)
 - [How to Get Started](#how-to-get-started)
 - [Deployment](#deployment)
-- [Authors](#authors)
+- [Author](#author)
 - [Contributing](#contributing)
 - [License](#license)
 
 ## Description
 
-Introducing Know CSS – your go-to resource for mastering the art of Cascading Style Sheets (CSS) effortlessly. This user-friendly front-end web CSS Cheatsheet application, meticulously crafted using React Vite, is designed to help both novice and experienced web developers create stunning, pixel-perfect designs with ease.
+This is a simple yet powerful Password Generator website built using React. It allows users to generate strong and secure passwords for their various online accounts with ease. With customizable options and a user-friendly interface, this application makes it simple to create passwords that meet your specific security requirements.
 
 <br>
 
@@ -40,7 +40,7 @@ Introducing Know CSS – your go-to resource for mastering the art of Cascading 
 **Deployment**
 <br>
 
-![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b32435a9-efad-4a9b-96a5-5ec7cfe1f735/deploy-status)](https://app.netlify.com/sites/secureon/deploys)
 <br>
 
 | Technology Used | Resource URL                                                      |
